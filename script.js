@@ -114,7 +114,7 @@ instagram: {
 
     engagement: "8%",
 
-    growth: "+2K",
+    growth: "+2.1K",
 
     interactions: "80.5K",
 
@@ -126,7 +126,7 @@ instagram: {
 
     saves: "4.2K",
 
-    newFollowers: "2K",
+    newFollowers: "2.1K",
 
     men: "91.7% MEN",
 
@@ -152,7 +152,7 @@ tiktok: {
 
     engagement: "5.6%",
 
-    growth: "+3.5K",
+    growth: "+829",
 
     interactions: null,
 
@@ -164,7 +164,7 @@ tiktok: {
 
     saves: null,
 
-    newFollowers: "3.5K",
+    newFollowers: "829",
 
     men: "81% MEN",
 
