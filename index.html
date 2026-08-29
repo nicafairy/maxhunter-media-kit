@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>MAX HUNTER | Gaming Creator</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
+
+</head>
+
+<body>
+
+```
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="logo">
+        MAX<span>HUNTER</span>
+    </div>
+
+    <nav class="nav">
+        <a href="#profile">PROFILE</a>
+        <a href="#stats">STATS</a>
+        <a href="#games">GAMES</a>
+        <a href="#content">CONTENT</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="status">
+        <span class="status-dot"></span>
+        ONLINE
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-grid"></div>
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                GAMING CREATOR // MEDIA KIT 2026
+            </p>
+
+            <h1>
+                MAX
+                <span>HUNTER</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                FORTNITE <span>×</span> GTA VI
+            </p>
+
+            <p class="hero-description">
+                Conteúdo gamer, gameplay real e entretenimento
+                para uma comunidade apaixonada por videogames.
+            </p>
+
+            <a href="#profile" class="main-button">
+                ACCESS MEDIA KIT
+                <span>→</span>
+            </a>
+
+        </div>
+
+        <div class="hero-decoration">
+            <div class="crosshair">+</div>
+            <div class="hud-line"></div>
+            <div class="hud-text">PLAYER_01</div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROFILE ================= -->
+
+    <section id="profile" class="section profile">
+
+        <div class="section-title">
+            <span>01 //</span>
+            <h2>PLAYER PROFILE</h2>
+        </div>
+
+        <div class="profile-grid">
+
+            <div class="profile-card">
+
+                <div class="card-tag">
+                    PLAYER INFORMATION
+                </div>
+
+                <h3>
+                    MAX HUNTER
+                </h3>
+
+                <p>
+                    Max Hunter é um criador de conteúdo gamer
+                    focado em entretenimento, gameplay e dicas
+                    para jogadores de Fortnite e GTA VI.
+                </p>
+
+                <p>
+                    Com uma comunidade crescente nas principais
+                    plataformas digitais, o conteúdo combina
+                    personalidade, gameplay real e conexão
+                    direta com a audiência.
+                </p>
+
+            </div>
+
+            <div class="profile-stats">
+
+                <div class="mini-stat">
+                    <span>GENRE</span>
+                    <strong>GAMING</strong>
+                </div>
+
+                <div class="mini-stat">
+                    <span>FOCUS</span>
+                    <strong>FORTNITE</strong>
+                </div>
+
+                <div class="mini-stat">
+                    <span>NEW</span>
+                    <strong>GTA VI</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= STATS ================= -->
+
+    <section id="stats" class="section stats-section">
+
+        <div class="section-title">
+
+            <span>02 //</span>
+
+            <h2>PLAYER STATS</h2>
+
+        </div>
+
+
+        <div class="stats-grid">
+
+            <!-- INSTAGRAM -->
+
+            <div class="stat-card platform-card"
+                 onclick="showAnalytics('instagram')">
+
+                <span class="platform">INSTAGRAM</span>
+
+                <strong>18.8K</strong>
+
+                <small>FOLLOWERS</small>
+
+                <div class="analytics-button">
+                    VIEW ANALYTICS →
+                </div>
+
+            </div>
+
+
+            <!-- TIKTOK -->
+
+            <div class="stat-card platform-card"
+                 onclick="showAnalytics('tiktok')">
+
+                <span class="platform">TIKTOK</span>
+
+                <strong>98.6K</strong>
+
+                <small>FOLLOWERS</small>
+
+                <div class="analytics-button">
+                    VIEW ANALYTICS →
+                </div>
+
+            </div>
+
+
+            <!-- YOUTUBE -->
+
+            <div class="stat-card platform-card">
+
+                <span class="platform">YOUTUBE</span>
+
+                <strong>5K+</strong>
+
+                <small>SUBSCRIBERS</small>
+
+                <div class="analytics-button disabled">
+                    ANALYTICS SOON
+                </div>
+
+            </div>
+
+
+            <!-- TWITCH -->
+
+            <div class="stat-card platform-card">
+
+                <span class="platform">TWITCH</span>
+
+                <strong>1.5K</strong>
+
+                <small>FOLLOWERS</small>
+
+                <div class="analytics-button disabled">
+                    ANALYTICS SOON
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= ANALYTICS PANEL ================= -->
+
+        <div id="analytics-panel" class="analytics-panel">
+
+            <div class="analytics-header">
+
+                <div>
+
+                    <span class="analytics-label">
+                        PLAYER ANALYTICS
+                    </span>
+
+                    <h3 id="analytics-title">
+                        INSTAGRAM
+                    </h3>
+
+                </div>
+
+                <button onclick="closeAnalytics()"
+                        class="close-analytics">
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="analytics-period">
+                LAST 30 DAYS
+            </div>
+
+
+            <div class="analytics-main-grid">
+
+                <div class="analytics-main-card">
+
+                    <span>VIEWS</span>
+
+                    <strong id="views">
+                        1.1M
+                    </strong>
+
+                    <small>
+                        TOTAL VIEWS
+                    </small>
+
+                </div>
+
+
+                <div class="analytics-main-card">
+
+                    <span>ENGAGEMENT</span>
+
+                    <strong id="engagement">
+                        8%
+                    </strong>
+
+                    <small>
+                        ENGAGEMENT RATE
+                    </small>
+
+                </div>
+
+
+                <div class="analytics-main-card">
+
+                    <span>GROWTH</span>
+
+                    <strong id="growth">
+                        +2K
+                    </strong>
+
+                    <small>
+                        NEW FOLLOWERS
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="analytics-secondary-grid">
+
+                <div class="analytics-secondary-grid">
+
+    <div>
+        <span>INTERACTIONS</span>
+        <strong id="interactions">80.5K</strong>
+    </div>
+
+    <div>
+        <span>LIKES</span>
+        <strong id="likes">61K</strong>
+    </div>
+
+    <div>
+        <span>COMMENTS</span>
+        <strong id="comments">2.4K</strong>
+    </div>
+
+    <div>
+        <span>SHARES</span>
+        <strong id="shares">11K</strong>
+    </div>
+
+    <div>
+        <span>SAVES</span>
+        <strong id="saves">4.2K</strong>
+    </div>
+
+    <div>
+        <span>NEW FOLLOWERS</span>
+        <strong id="newFollowers">2K</strong>
+    </div>
+
+</div>
+<div class="analytics-audience">
+
+    <div class="audience-title">
+        AUDIENCE PROFILE
+    </div>
+
+    <div class="audience-grid">
+
+        <div class="audience-group">
+            <span>GENDER</span>
+
+            <strong id="men">91.7% MEN</strong>
+            <strong id="women">8.3% WOMEN</strong>
+        </div>
+
+
+        <div class="audience-group">
+
+            <span>AGE</span>
+
+            <strong id="age25">25–34 · 47%</strong>
+            <strong id="age18">18–24 · 23%</strong>
+            <strong id="age35">35–44 · 17%</strong>
+
+        </div>
+
+
+        <div class="audience-group">
+
+            <span>TOP LOCATION</span>
+
+            <strong id="brazil">BRAZIL · 92.6%</strong>
+
+            <small id="international">
+                EUA · Portugal · Japão · França
+            </small>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+
+
+            <div class="analytics-footer">
+
+                <span>
+                    DATA PERIOD
+                </span>
+
+                <strong>
+                    LAST 30 DAYS
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <p class="stats-note">
+            * Dados podem ser atualizados conforme crescimento das plataformas.
+        </p>
+
+    </section>
+
+
+    <!-- ================= GAMES ================= -->
+
+    <section id="games" class="section games-section">
+
+        <div class="section-title">
+
+            <span>03 //</span>
+
+            <h2>GAME SELECT</h2>
+
+        </div>
+
+        <div class="games-grid">
+
+            <div class="game-card fortnite">
+
+                <div class="game-overlay"></div>
+
+                <div class="game-content">
+
+                    <span class="game-number">
+                        GAME_01
+                    </span>
+
+                    <h3>
+                        FORTNITE
+                    </h3>
+
+                    <p>
+                        Gameplay, dicas, estratégias e conteúdo
+                        para jogadores que querem melhorar e se divertir.
+                    </p>
+
+                    <span class="game-status">
+                        ● ACTIVE
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="game-card gta">
+
+                <div class="game-overlay"></div>
+
+                <div class="game-content">
+
+                    <span class="game-number">
+                        GAME_02
+                    </span>
+
+                    <h3>
+                        GTA VI
+                    </h3>
+
+                    <p>
+                        Novo universo de conteúdo explorando
+                        vazamentos, novidades e entretenimento.
+                    </p>
+
+                    <span class="game-status">
+                        ● NEW MISSION
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTENT ================= -->
+
+    <section id="content" class="section content-section">
+
+        <div class="section-title">
+
+            <span>04 //</span>
+
+            <h2>CONTENT SYSTEM</h2>
+
+        </div>
+
+        <div class="content-grid">
+
+            <div class="content-card">
+                <span>01</span>
+                <h3>REELS</h3>
+                <p>Conteúdo curto, dinâmico e focado em alcance.</p>
+            </div>
+
+            <div class="content-card">
+                <span>02</span>
+                <h3>TIKTOK</h3>
+                <p>Gameplay, dicas e entretenimento para a comunidade.</p>
+            </div>
+
+            <div class="content-card">
+                <span>03</span>
+                <h3>SHORTS</h3>
+                <p>Conteúdo rápido para descoberta de novos públicos.</p>
+            </div>
+
+            <div class="content-card">
+                <span>04</span>
+                <h3>LIVE</h3>
+                <p>Interação direta e construção de comunidade.</p>
+            </div>
+
+            <div class="content-card">
+                <span>05</span>
+                <h3>STORIES</h3>
+                <p>Conteúdo diário e conexão com a audiência.</p>
+            </div>
+
+            <div class="content-card">
+                <span>06</span>
+                <h3>BRANDED</h3>
+                <p>Conteúdo personalizado para marcas e campanhas.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BRAND ================= -->
+
+    <section class="section brand-section">
+
+        <div class="section-title">
+
+            <span>05 //</span>
+
+            <h2>BRAND MISSIONS</h2>
+
+        </div>
+
+        <div class="missions">
+
+            <div class="mission">
+
+                <div class="mission-number">01</div>
+
+                <div>
+                    <h3>SPONSORED CONTENT</h3>
+                    <p>
+                        Conteúdo patrocinado integrado ao universo gamer.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="mission">
+
+                <div class="mission-number">02</div>
+
+                <div>
+                    <h3>PRODUCT PLACEMENT</h3>
+                    <p>
+                        Inserção de produtos e marcas no conteúdo.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="mission">
+
+                <div class="mission-number">03</div>
+
+                <div>
+                    <h3>CAMPAIGNS</h3>
+                    <p>
+                        Campanhas digitais desenvolvidas para objetivos específicos.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="mission">
+
+                <div class="mission-number">04</div>
+
+                <div>
+                    <h3>LIVE INTEGRATION</h3>
+                    <p>
+                        Ativações e integrações durante transmissões ao vivo.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="contact-content">
+
+            <span class="eyebrow">
+                FINAL MISSION
+            </span>
+
+            <h2>
+                LET'S
+                <span>PLAY.</span>
+            </h2>
+
+            <p>
+                Sua marca pode fazer parte da próxima missão.
+            </p>
+
+            <a href="mailto:commercialmaxhunter@gmail.com"
+               class="main-button">
+
+                START A PARTNERSHIP
+
+                <span>→</span>
+
+            </a>
+
+
+            <div class="socials">
+
+                <a href="https://www.instagram.com/maxhunter_mh"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    INSTAGRAM
+                </a>
+
+                <a href="https://www.tiktok.com/@maxhunter_mh"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    TIKTOK
+                </a>
+
+                <a href="https://youtube.com/@maxhunter"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    YOUTUBE
+                </a>
+
+                <a href="https://twitch.tv/maxhunter_mh"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    TWITCH
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div>
+        MAX<span>HUNTER</span>
+    </div>
+
+    <p>
+        GAMING CREATOR © 2026
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
